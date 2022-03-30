@@ -1,30 +1,10 @@
 import { Card, CardContent, Grid, Typography } from '@mui/material';
-// import axios from 'axios';
+
 import React, { useState } from 'react';
 
 const Data = () => {
-    // const { user, setUser } = useState([]);
-
-
-
-
-    // const dataFatcher = async () => {
-
-    //     await fetch(`https://jsonplaceholder.typicode.com/users`)
-    //         .then((res) => res.json())
-    //         .then((data) => setUser(data));
-
-    // }
-    // console.log(user);
-    // dataFatcher()
-
-
-
 
     const [user, setUser] = useState([]);
-    // const [isLoading, setIsLoading] = useState(true);
-    // const [error, setError] = useState("");
-
 
     const getFetchData = async () => {
 
